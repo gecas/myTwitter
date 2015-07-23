@@ -1,0 +1,56 @@
+/*$image = value(function() use ($file){
+   	 	$filename = date('Y-m-d-H-i-s') . '.' . $file->getClientOriginalExtension();
+    return strtolower($filename);
+        });*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*$rules= array(	'title'=>'required|regex:/(^[A-Za-z]+$)+/',
+                'body'=>'required|regex:/(^[A-Za-z]+$)+/',
+                );
+$data = Input::all();
+
+$validation = Validator::make($data,$rules);
+if ($validation->passes()){
+	dd("yes");
+}else{
+	dd("no");
+}*/
+
+
+
+
+
+
+$.post(url, data, function(data) { response });
+$.get(url, data, function(data) { response });
+
+$.ajax({
+	type: 'GET', // GET/POST
+	url: url,
+	data: data,
+	dataType: "html", // json, html,..
+	fail: function(data){
+		response
+	},
+	done: function(data){
+		response
+	},
+	success: function(data) {
+		response
+	}
+});
+
+dar yra toks dalykas kaip
+
+$(selector).load(url); //pakrauna html kontenta
+
