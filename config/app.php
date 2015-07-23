@@ -146,7 +146,6 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
-        'Laracasts\Generators\GeneratorsServiceProvider',
         'Laracasts\Flash\FlashServiceProvider'
 
 	],
